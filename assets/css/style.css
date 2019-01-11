@@ -116,4 +116,16 @@ small, .font_small {
   float: right;
 }
 
+
+nav {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2?)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+  }
+
+
+
+
+
+
+
+
 /******************** ICONGRAPHY ********************/
