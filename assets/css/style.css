@@ -81,7 +81,6 @@ nav {
   margin: 0 auto;
   border-radius: 5px;
   background: linear-gradient(#4a4a4a, #000);
-  /* height: 70px; */
 }
 
 nav ul {}
@@ -134,10 +133,7 @@ nav .border-right {
   width: 24px;
   height: 24px;
 }
-/*
- nav ul li input:focus {
-  width: 400px;
-} */
+
 
 .banner-content {
   text-align: center;
@@ -198,43 +194,3 @@ footer .col ul li {
 footer a {
   color: blue;
 }
-<<<<<<< HEAD
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  h3 {
-    font-size: 2em;
-  }
-
-  p {
-    margin-bottom: 20px;
-  }
-}
-small, .font_small {
-  font-size: 0.707em;
-}
-
-.list-block li {
-  float: right;
-}
-
-
-nav {
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2?)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
-  }
-
-
-
-
-
-
-
-
-
