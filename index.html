@@ -46,16 +46,21 @@
     <div class="banner-container">
       <nav>
         <ul>
-          <li><i class="fab fa-apple"></i></li>
-          <li>Store</li>
-          <li>Mac</li>
-          <li>iPod</li>
-          <li>iPhone</li>
-          <li>iPad</li>
-          <li>iTunes</li>
-          <li>Support</li>
+          <li class="border-right"><a href="#"><i class="fab fa-apple"></i></a></li>
+          <li class="border-right"><a href="#">Store</a></li>
+          <li class="border-right"><a href="#">Mac</a></li>
+          <li class="border-right"><a href="#">iPod</a></li>
+          <li class="border-right"><a href="#">iPhone</a></li>
+          <li class="border-right"><a href="#">iPad</a></li>
+          <li class="border-right"><a href="#">iTunes</a></li>
+          <li class="border-right"><a href="#">Support</a></li>
           <li>
-            <input type="text" name="" value="" placeholder="">
+            <div id="input_container">
+              <input type="text" id="input" value>
+              <i class="fas fa-search" id="input_i"></i>
+              <!-- <img src="https://cdn4.iconfinder.com/data/icons/36-slim-icons/87/search.png" id="input_img"> -->
+            </div>
+            <!-- <input type="text" name="" value="" placeholder=""> -->
           </li>
         </ul>
       </nav>
@@ -63,9 +68,9 @@
       <div class="banner-content">
         <h1>What will your verse be?</h1>
         <h3>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's story.</h3>
-        <p>
+        <h3>
           <a href="#">Watch the "Your Verse" film and explore some stories <span><i class="far fa-play-circle"></i></span> </a>
-        </p>
+        </h3>
       </div>
     </div>
     <div class="grid-container">
@@ -85,31 +90,30 @@
     </div>
     <footer>
       <div class="top">
-        <div class="">
+        <div class="col">
           <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.</p>
         </div>
-        <div class="links">
+        <div class="col">
           <ul>
-            <li>Site map</li>
-            <li>Hot News</li>
-            <li>RSS Feeds</li>
-            <li>Media Info</li>
-            <li>Enviroment</li>
-            <li>Job Opportunities</li>
-            <li>Contact Us</li>
-            <li><i class="fas fa-globe-americas"></i></li>
+            <li><a href="#">Site map</a></li>
+            <li><a href="#">Hot News</a></li>
+            <li><a href="#">RSS Feeds</a></li>
+            <li><a href="#">Media Info</a></li>
+            <li><a href="#">Enviroment</a></li>
+            <li><a href="#">Job Opportunities</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#"><i class="fas fa-globe-americas"></i></a></li>
           </ul>
         </div>
 
-      </div>
-      <div class="bottom">
-        <p>
+        <div class="col">
+          <p>
+            Copyright © 2014 Apple Inc. All rights reserved.
 
-          Copyright © 2014 Apple Inc. All rights reserved.
+            Terms of Use | Privacy Policy
 
-          Terms of Use | Privacy Policy
-
-        </p>
+          </p>
+        </div>
       </div>
     </footer>
   </div>

@@ -35,30 +35,12 @@ h6 {
   color: #313131;
 }
 
-h1 {
+h1, h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 4.5em;
   font-weight: 600;
   line-height: 1.04;
   color: #fff;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 50px;
-  font-weight: 100;
-  margin: 0;
-}
-
-h3 {
-  font-size: 36px;
-  font-weight: 300;
-}
-
-h4 {
-  font-size: 1.125em;
-  font-weight: 500;
-  margin: 0;
 }
 
 ul {
@@ -82,22 +64,137 @@ a:focus {
   text-decoration: none;
 }
 
-blockquote {
-  border: none;
+.content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.banner-container {
+  padding: 17px;
+  color: #fff;
+  background: lightblue;
+}
+
+nav {
+  background: #4a4a4a;
+  width: 62%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: linear-gradient(#4a4a4a, #000);
+  /* height: 70px; */
+}
+
+nav ul {}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+}
+
+nav ul li a {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+nav ul li:hover {
+  background: #4a4a4a;
+}
+
+nav ul li input {}
+
+nav .border-right {
+  border-right: 1px solid #4a4a4a;
+}
+
+#input_container {
+  position: relative;
+  padding: 0 0 0 20px;
+  margin: 0 20px;
+  direction: rtl;
+  width: 150px;
+}
+
+#input {
+  background: #4a4a4a;
+  border-radius: 25px;
+  height: 20px;
+  margin: 0;
+  padding-right: 30px;
+  width: 100%;
+}
+
+#input_i {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 24px;
+  height: 24px;
+}
+/*
+ nav ul li input:focus {
+  width: 400px;
+} */
+
+.banner-content {
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.banner-content h3 {
+  font-size: 40px;
+}
+
+.banner-content h1, h3, a {
+  font-weight: lighter;
+  color: #fff;
+}
+
+.banner-content a:hover {
+  text-decoration: underline;
+}
+
+.grid-container {
+  width: 100%;
+}
+
+.grid {
+  width: 25%;
+  float: left;
+}
+
+.grid img {
+  height: 220px;
+}
+
+footer {
+  clear: left;
+  background: #fff;
+  width: 80%;
+  padding: 0 10%;
+}
+
+footer .top .col {
+  width: 50%;
+  float: left;
+  font-size: 10px;
+}
+
+footer p {
+  margin: 0;
   padding: 0;
 }
 
-.text-small {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
+footer .col ul li {
+  display: inline-block;
+  padding: 0 7px;
+  border-right: 1px solid #ddd;
 }
 
-.sub-heading {
-  font-size: 20px;
-}
-
-.client-name {
-  font-style: italic;
-  display: block;
+footer a {
+  color: blue;
 }
