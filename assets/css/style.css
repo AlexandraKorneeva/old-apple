@@ -73,6 +73,9 @@ a:focus {
   padding: 17px;
   color: #fff;
   background: lightblue;
+  background-image: url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 nav {
