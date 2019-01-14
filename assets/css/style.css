@@ -75,7 +75,7 @@ a:focus {
   background: lightblue;
   background-image: url("../images/background-image.jpg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 100% 80%;
 }
 
 nav {
