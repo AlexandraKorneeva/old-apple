@@ -78,64 +78,67 @@ a:focus {
   background-position: 100% 80%;
 }
 
+
 nav {
-  background: #4a4a4a;
-  width: 62%;
+  display: flex;
+  width: 845px;
   margin: 0 auto;
+  justify-content: center;
+  background: #5e5e5e;
+  background: -webkit-linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
+  background:      -o-linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
+  background:         linear-gradient(#8b8b8b, #717171 50%, #5e5e5e 50%, #787878);
   border-radius: 5px;
-  background: linear-gradient(#4a4a4a, #000);
-}
-
-nav ul {}
-
-nav ul li {
-  display: inline-block;
-  padding: 5px;
-  width: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #7b7b7b;
+  border-bottom-color: #565656;
+  border-right-color: #565656;
+  border-left-color: #818181;
   text-align: center;
-}
+  }
 
-nav ul li a {
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  font-size: 15px;
-}
-
-nav ul li:hover {
-  background: #4a4a4a;
-}
-
-nav ul li input {}
-
-nav .border-right {
-  border-right: 1px solid #4a4a4a;
-}
-
-#input_container {
+  .nav-item{
+  flex-grow: 1;
   position: relative;
-  padding: 0 0 0 20px;
-  margin: 0 20px;
-  direction: rtl;
-  width: 150px;
+  }
+
+.nav-item a{
+  display: block;
+  height: 30px;
+  padding: 3px 10px;
+  font: 12px/30px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  text-shadow: 0 -1px .5px #000 ,0 1px .5px #444;
+}
+.nav-item:not(:last-child) a{
+  border-right: 1px solid #565656;
+}
+.nav-item a:hover {
+  background-color: rgba(0,0,0,.4);
 }
 
-#input {
-  background: #4a4a4a;
-  border-radius: 25px;
-  height: 20px;
-  margin: 0;
-  padding-right: 30px;
-  width: 100%;
+
+
+.nav-item-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#input_i {
-  position: absolute;
-  top: 7px;
-  left: 5px;
-  width: 24px;
-  height: 24px;
+.nav-item-search input {
+  display: block;
+  width: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #565656;
+  transition: width .2s ease-in;
 }
+
+.nav-item-search input:focus {
+  width: 130px;
+}
+
 
 
 .banner-content {
